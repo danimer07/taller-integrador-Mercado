@@ -62,3 +62,16 @@ button:hover {
     font-size: 15px;
     color: #666666;
 }
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+button {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.02);
+}
